@@ -25,6 +25,25 @@
 *   **"Safe View":** Sandbox mode to view HTML emails without loading tracking pixels.
 *   **Multi-Profile:** Manage unlimited accounts (Gmail, Outlook, Custom SMTP).
 
+## Pictures 
+# MAin App
+<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/ccb7be80-2b4f-40ab-913c-82405144484b" />
+# Profile Configuration
+<img width="608" height="628" alt="image" src="https://github.com/user-attachments/assets/df18d569-cae7-4864-b952-ea39bd80251f" />
+# Main Email App
+<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/fc5e79d4-6948-4c03-82a6-9dff19bfb0b8" />
+# PGP Key Generation
+<img width="608" height="528" alt="image" src="https://github.com/user-attachments/assets/d948c513-127a-4dc0-bda7-99f80e679472" />
+# Forensic
+<img width="558" height="578" alt="image" src="https://github.com/user-attachments/assets/c2a35169-7257-4c44-9b36-c34b593a6b6d" />
+# Temporary Email Discarter
+<img width="808" height="578" alt="image" src="https://github.com/user-attachments/assets/cb306bcc-00e4-4a28-99eb-2567bf55e05d" />
+# Ghost ID generator
+<img width="308" height="248" alt="image" src="https://github.com/user-attachments/assets/2583eb2c-0427-4b13-ad87-51841e02bdc4" />
+# Compose Email with multiples options
+<img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/d08cf736-640c-4016-a480-a21dcd0dbd21" />
+
+
 ## 🛠️ Installation & Requirements
 
 1. **Clone the repo:**
