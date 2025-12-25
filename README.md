@@ -25,6 +25,26 @@
 *   **"Safe View":** Sandbox mode to view HTML emails without loading tracking pixels.
 *   **Multi-Profile:** Manage unlimited accounts (Gmail, Outlook, Custom SMTP).
 
+### 🚨 The Red Protocol (Emergency Data Wipe)
+
+CorreioPro Ultimate includes a built-in "Panic Button" designed for hostile environments or emergency hardware disposal. Located in the Profile Manager, this feature performs a destructive sanitation of the local environment.
+
+How it works:
+
+    Secure Overwrite: The app calculates the exact size of your sensitive files (secret.key, profiles.json, pgp_keys.json, email_cache.json).
+
+    Shredding: It overwrites the file content on the disk with cryptographically strong random noise (os.urandom), making forensic recovery impossible.
+
+    Deletion: It unlinks (deletes) the files from the file system.
+
+    Termination: The application process kills itself immediately.
+
+⚠️ WARNING: This action is IRREVERSIBLE.
+
+    What is gone: All local passwords, PGP keys, contacts, and offline email cache. You will lose access to any PGP-encrypted emails if you did not backup your key elsewhere.
+
+    What remains: This does not delete emails from the remote server (e.g., Gmail/Outlook). It only sanitizes the local device.
+
 ## Pictures 
 # MAin App
 <img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/ccb7be80-2b4f-40ab-913c-82405144484b" />
