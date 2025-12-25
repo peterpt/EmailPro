@@ -31,35 +31,47 @@ CorreioPro Ultimate includes a built-in "Panic Button" designed for hostile envi
 
 How it works:
 
-    Secure Overwrite: The app calculates the exact size of your sensitive files (secret.key, profiles.json, pgp_keys.json, email_cache.json).
+Secure Overwrite: The app calculates the exact size of your sensitive files 
+(secret.key, profiles.json, pgp_keys.json, email_cache.json).
 
-    Shredding: It overwrites the file content on the disk with cryptographically strong random noise (os.urandom), making forensic recovery impossible.
+Shredding: It overwrites the file content on the disk with cryptographically 
+strong random noise (os.urandom), making forensic recovery impossible.
 
-    Deletion: It unlinks (deletes) the files from the file system.
+Deletion: It unlinks (deletes) the files from the file system.
 
-    Termination: The application process kills itself immediately.
+Termination: The application process kills itself immediately.
 
 ⚠️ WARNING: This action is IRREVERSIBLE.
 
-    What is gone: All local passwords, PGP keys, contacts, and offline email cache. You will lose access to any PGP-encrypted emails if you did not backup your key elsewhere.
+What is gone: All local passwords, PGP keys, contacts, and offline email cache. 
+You will lose access to any PGP-encrypted emails if you did not backup your 
+key elsewhere.
 
-    What remains: This does not delete emails from the remote server (e.g., Gmail/Outlook). It only sanitizes the local device.
+What remains: This does not delete emails from the remote server (e.g., Gmail/Outlook). 
+It only sanitizes the local App.
 
 ## Pictures 
-# MAin App
+# Main App
 <img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/ccb7be80-2b4f-40ab-913c-82405144484b" />
+
 # Profile Configuration
 <img width="608" height="628" alt="image" src="https://github.com/user-attachments/assets/df18d569-cae7-4864-b952-ea39bd80251f" />
+
 # Main Email App
 <img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/fc5e79d4-6948-4c03-82a6-9dff19bfb0b8" />
+
 # PGP Key Generation
 <img width="608" height="528" alt="image" src="https://github.com/user-attachments/assets/d948c513-127a-4dc0-bda7-99f80e679472" />
+
 # Forensic
 <img width="558" height="578" alt="image" src="https://github.com/user-attachments/assets/c2a35169-7257-4c44-9b36-c34b593a6b6d" />
+
 # Temporary Email Discarter
 <img width="808" height="578" alt="image" src="https://github.com/user-attachments/assets/cb306bcc-00e4-4a28-99eb-2567bf55e05d" />
+
 # Ghost ID generator
 <img width="308" height="248" alt="image" src="https://github.com/user-attachments/assets/2583eb2c-0427-4b13-ad87-51841e02bdc4" />
+
 # Compose Email with multiples options
 <img width="1024" height="741" alt="image" src="https://github.com/user-attachments/assets/d08cf736-640c-4016-a480-a21dcd0dbd21" />
 
