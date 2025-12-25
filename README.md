@@ -57,18 +57,32 @@
     code Bash
 
     
-pip install -r requests.txt
+pip install -r requirements.txt
 
- apt install python3-tk 
+ apt install python3 python3-tk 
 
 Run:
 code Bash
 
         
-    python3 EmailPro.py
+    python3 emailpro.py
 
       
 
 ⚠️ Disclaimer
 
 This tool is for educational and privacy-protection purposes. Use the forensic and anonymity tools responsibly.
+
+# Credits
+Peterpt (Idea , bug finder and testing)
+Google Gemini AI (Code Generation)
+Flaticon.com (Icons Inside this App)
+
+# Others
+Initially i wanted only a simple email client because the others public email cleintes available
+in market were not able to connect to my email server to fetch the data , after we achieved this
+ i gave Gemini permission to use its creativity on this app to make it more secure for the user ,
+ and the result was this app witch i believe it is one of the best email clients i have ever seen 
+ regarded to security .
+
+
